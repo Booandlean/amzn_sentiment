@@ -11,6 +11,7 @@ The primary goal of this project is to create an NLP model that can ingest an am
 ## How do I use this?
 
 idk lmao
+(I'll fill this in when I'm done)
 
 ## Sources
 
