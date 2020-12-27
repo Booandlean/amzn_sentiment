@@ -35,7 +35,6 @@ from nltk.corpus import wordnet
 from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer 
   
-
 def get_wordnet_pos(treebank_tag):
     '''
     Translate nltk POS to wordnet tags
@@ -50,3 +49,13 @@ def get_wordnet_pos(treebank_tag):
         return wordnet.ADV
     else:
         return wordnet.NOUN
+    
+def data_prep(): #this will change over time
+    
+    raw_df = pd.read_csv('../data/archive/1429_1.csv')
+    
+    df = raw_df[['asins', 'reviews.rating', 'reviews.doRecommend', 'reviews.title', 'reviews.text']]
+    
+    df.dropna(inplace=True)
+    
+    
