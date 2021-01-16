@@ -1,0 +1,1 @@
+I'm probably going to put this on hold for now, as a data analyst predictive modeling isnt reallt meant to be my strong-suit, so I'm likely going to mess around more with word counts and text patterns to look at the diffenences between either 5 star vs non 5 star reviews or reccomended vs not reccomended 
